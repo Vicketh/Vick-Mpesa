@@ -1,0 +1,62 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# SQLite dev database
+*.db
+*.db-shm
+*.db-wal
+
+# Alembic
+backend/app/db/migrations/versions/*.pyc
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/key.properties
+mobile/*.jks
+mobile/ios/
+mobile/linux/
+mobile/macos/
+mobile/web/
+mobile/windows/
+
+# Android
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.zed/
+
+# OS
+.DS_Store
+Thumbs.db

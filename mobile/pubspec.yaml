@@ -1,0 +1,50 @@
+name: vick_mpesa
+description: "Vick Mpesa — M-PESA companion app built on official Daraja APIs."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP
+  dio: ^5.7.0
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Secure storage
+  flutter_secure_storage: ^9.2.2
+
+  # Local storage (preferences)
+  shared_preferences: ^2.3.3
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+
+  # Biometrics
+  local_auth: ^2.3.0
+
+  # Connectivity
+  connectivity_plus: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  riverpod_generator: ^2.6.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
